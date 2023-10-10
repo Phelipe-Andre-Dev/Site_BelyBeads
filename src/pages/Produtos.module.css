@@ -1,0 +1,54 @@
+.containerpr{
+    width: 100%;
+}
+
+.h1{
+    color: black;
+}
+
+.f{
+    margin-top: 400px;
+}
+
+img{
+    padding: 02px;
+    margin: 20px 20px 20px;
+    transition: all 0.3s;
+    border: 3px solid purple;
+    
+    
+}
+
+
+.img5{
+    height: 440px; 
+    
+}
+
+.container{
+    
+    width: 100%;
+    column-gap: 1em;
+    overflow: auto;
+    display: flex;
+    margin: 20px 20px 20px;
+    height: 500px;
+  
+}
+
+img:hover{
+    transform: scale(1.1);
+    
+   
+}
+
+@media screen and (max-width: 768px){
+    .img{
+        width: 100px;
+        height: 200px;
+        padding: 3px;
+        margin-top: 40px;
+    }
+
+}
+
