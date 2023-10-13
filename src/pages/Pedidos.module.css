@@ -62,8 +62,14 @@ button:hover{
 
 @media screen and (max-width: 768px){
     .container{
-      margin-left: -10%;
+      margin-left: -8%;
       
     }
+
+    input{
+        color:white;
+    }
+
+   
     
 }
