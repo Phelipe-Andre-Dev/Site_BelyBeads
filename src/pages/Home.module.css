@@ -29,3 +29,13 @@ h2{
     margin-top: 300px;
 }
 
+@media screen and (max-width: 768px){
+    
+    h2{
+       font-size: 1.3em;
+       display: flex;
+       flex-direction: column;
+       text-align: center;
+    }
+}
+

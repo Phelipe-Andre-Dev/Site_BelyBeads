@@ -34,11 +34,35 @@
 }
 
 @media screen and (max-width: 768px){
-    .li{
-        flex-direction: column;
-        padding: 4px;
+
+    
+    .img{
+        width: 80px;
+        margin-right: 70px;
+        
+
+    }
+    .li a{
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
         column-gap: 0.1em;
+        padding: 5px;
+       
+
+    }
+
+    ul{
+        flex-direction: column;
+        padding: 10px;
+        
         
     }
+
+    .nav{
+        height: 250px;
+        width: 100%;
+    }
+
 }
 

@@ -58,3 +58,12 @@ button:hover{
 .f{
     color: white;
 }
+
+
+@media screen and (max-width: 768px){
+    .container{
+      margin-left: -10%;
+      
+    }
+    
+}

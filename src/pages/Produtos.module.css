@@ -1,6 +1,4 @@
-.containerpr{
-    width: 100%;
-}
+
 
 .h1{
     color: black;
@@ -43,12 +41,8 @@ img:hover{
 }
 
 @media screen and (max-width: 768px){
-    .img{
-        width: 100px;
-        height: 200px;
-        padding: 3px;
-        margin-top: 40px;
-    }
-
+   
 }
+
+
 
