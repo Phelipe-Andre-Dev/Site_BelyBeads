@@ -19,22 +19,25 @@ function Pedidos (){
 
         if (nome === ''){
             setMsg('Digite seu nome')
+            alert('Preencha todos os campos')
             return false
         }
 
         if(contato === ''){
             setMsg('Digite seu WhatsApp')
+            alert('Preencha todos os campos')
             return false
         }
         
         if (pedido === ''){
             setMsg('Qual o seu pedido?')
+            alert('Preencha todos os campos')
             return false
         }
 
         if(nome || contato || pedido !== ''){
         setMsg('Pedido enviado, em breve entraremos em contato com mais informações...Obrigado!')
-         
+        alert('Preencha todos os campos')
            
         }
           
