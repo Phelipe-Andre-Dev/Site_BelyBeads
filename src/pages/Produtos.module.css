@@ -4,6 +4,10 @@
     color: black;
 }
 
+.textoprodutos{
+    text-align: center;
+}
+
 .f{
     margin-top: 400px;
 }
@@ -23,6 +27,13 @@ img{
     
 }
 
+.img6{
+    width: 800px;
+    height: 440px; 
+}
+
+
+
 .container{
     
     width: 100%;
@@ -39,12 +50,39 @@ img:hover{
     
    
 }
+.btn{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(6, 237, 6);
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+    font-size: 2em;
+    width: 300px;
+    margin-left: 600px;
+    margin-top: 100px;
+}
+
+.btn:hover{
+    background-color: rgb(9, 185, 9);
+}
+
 
 @media screen and (max-width: 768px){
     img{
         width: 400px;
 
     }
+
+    .btn{
+        margin-left: 120px;
+        margin-top: 100px;
+    }
+
+    .btn:hover{
+        background-color: rgb(9, 185, 9);
+    }
+    
 
 
 

@@ -19,6 +19,27 @@ h2{
     justify-content: center;
 }
 
+.textohome{
+    text-align: center;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(6, 237, 6);
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+    font-size: 2em;
+    width: 300px;
+    margin-left: 600px;
+    margin-top: 100px;
+}
+
+.btn:hover{
+    background-color: rgb(9, 185, 9);
+}
+
 .bely{
     background-color: rgb(82, 7, 152);
     color: white;
@@ -37,5 +58,16 @@ h2{
        flex-direction: column;
        text-align: center;
     }
+
+    .btn{
+        margin-left: 120px;
+        margin-top: 100px;
+    }
+
+    .btn:hover{
+        background-color: rgb(9, 185, 9);
+    }
+    
+
 }
 
