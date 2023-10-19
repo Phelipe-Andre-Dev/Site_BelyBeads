@@ -39,11 +39,14 @@ function Produtos (){
                 <img src={img12}/>
             </div>
 
-          <h3>Arraste para visualizar...</h3>
+          <h3>Arraste para esquerda para visualizar ...</h3>
 
           <article>
             <h3 className={styles.textoprodutos}>
                 Crie sua própria pulseira, ou chaveiro, personalizados! 
+                Após nos enviar seu pedido entraremos em contato pelo seu WhatsApp
+                para mais informações sobre o seu pedido e valores. Ou entre em contato
+                pelo nosso <a href="https://instagram.com/belybeadss?igshid=MzMyNGUyNmU2YQ%3D%3D&utm_source=qr">Instagram@BelyBeads</a>
             </h3>
           </article>
           <Link className={styles.btn} to='/pedidos'>Compre Já</Link>

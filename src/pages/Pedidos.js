@@ -47,7 +47,7 @@ function Pedidos (){
 
         emailjs.send('service_oes41pg', 'template_6d0q1wq', templateParams, 'K-AE_qQ5_fftczNzZ' )
         .then((response) => {
-            alert('Email enviado', response.status, response.text)
+            alert('Pedido Enviado', response.status, response.text)
             setNome ('')
             setContato ('')
             setPedido ('')

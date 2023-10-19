@@ -7,7 +7,7 @@ function Home(){
         <div className={styles.Home}>
             <div>
                 <h1>Home</h1>
-                <h2>Sejam Bem-Vindos a <h1 className={styles.bely}>BelyBeads</h1></h2>
+                <h2>Sejam Bem-Vindos á <h1 className={styles.bely}>BelyBeads</h1></h2>
                
                 <h3 className={styles.textohome}> Descubra o charme e exclusividade das pulseiras
                     personalizadas da BelyBeads, crie sua própria pulseira, para usar em qualquer ocasião.
@@ -15,7 +15,7 @@ function Home(){
                 </h3>
                 
 
-                <h2>Siga também nossa página no Instagram <h3><a href="https://instagram.com/belybeadss?igshid=MzMyNGUyNmU2YQ%3D%3D&utm_source=qr">BelyBeads</a></h3>
+                <h2>Siga também nossa página no <h3><a href="https://instagram.com/belybeadss?igshid=MzMyNGUyNmU2YQ%3D%3D&utm_source=qr">Instagram@BelyBeads</a></h3>
                     
                 </h2> 
                 
